@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  margin: auto;
+  height: 100vh;
+}
+/* designing the navigation menu */
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  font-weight: 700;
+  color: #08b26e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* main left-------------------------------------------------*/
+
+main section {
+  width: 50%;
+}
+
+.leftsection {
+  margin-left: 5%;
+  position: relative;
+  margin-top: 16vh;
+}
+
+.topangle {
+  width: 25px;
+}
+
+.leftsection h1 {
+  font-size: 70px;
+}
+
+.leftsection p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.bottomangle {
+  width: 25px;
+  position: absolute;
+  right: 25px;
+}
+
+.stethoscope {
+  position: absolute;
+  width: 90%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+}
+
+.mouse {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+  top: 380px;
+}
+
+.leftsection button{
+    color: #ffffff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* right side */
+
+.greenbox,.yellowbox{
+    position: absolute;
+    right: 2px;
+}
+
+.greenbox {
+    width: 30%;
+    bottom: 30px;
+}
+.yellowbox{
+    width: 23%;
+    bottom: 50px;
+}
+
+.doctor{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    height: 85%;
+
+}

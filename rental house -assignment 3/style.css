@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #77b3d8;
+
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/css/multipale\ assignment\ 3/mainBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+  position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: aliceblue;
+
+
+}
+nav ul li a:hover{
+    color: black;
+}
+hr{
+    margin: 0px 100px;
+}
+
+header div{
+    margin-top: 85px;
+    margin-left: 220px;
+}
+
+header h1{
+    color: aliceblue;
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+header p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+header button{
+    padding: 10px 22px;
+    background-color: #6663e9;
+    border-radius: 18px;
+    border: none;
+    font-size: 17px;
+}
+
+.logo{
+    background-color: beige;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    height: 11vh;
+    position: relative;
+    border-radius: 10px;
+    left: 200px;
+    top: -16px;
+}
+
+.logo p{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6663e9;
+}
+
+/* card seection---------------------------------------------------------------- */
+
+.cardheader{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+    font-size:50px;
+    font-weight: 800;
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+.card{
+    
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.carddetails{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 220px;
+    border-radius: 10px;
+    position: relative;
+    left: 16px;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.carddetails p{
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+}
+
+.orange p{
+    font-size: 20px ;
+    font-weight: 700;
+}
+
+
+.orange span{
+        color: #6663e9;
+}
+
+.carddetails button{
+    padding: 8px 10px;
+    background-color: #6663e9;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.card1{
+    position: relative;
+    bottom: 20px;
+}
+.card3{
+    position: relative;
+    top: 20px;
+}
+
+.card4{
+    position: relative;
+    top: 20px;
+}
+.card6{
+    position: relative;
+    bottom: 20px;
+}
+
+.card7{
+    position: relative;
+    bottom: 20px;
+}
+.card9{
+    position: relative;
+    top: 20px;
+}
+
+/* main top------------------------------------------------------------ */
+
+.up{
+    position: relative;
+    top: 120px;
+    display: flex;
+}
+/* left- */
+.up .left .featuresImage1{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: -50px;
+    left: 230px;
+    
+
+}
+
+.up .left {
+    width: 50%;
+}
+
+
+/* right- */
+
+.up .right{
+    position: relative;
+    left: 100px;
+    top: 100px;
+    
+}
+
+.up .right h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    
+}
+
+.right button{
+        margin-top: 70px;
+        padding: 10px 14px;
+        font-weight: 600;
+        border-radius: 15px;
+        border: none;
+        background-color: #6663e9;
+}
+
+
+
+/* main down */
+
+.left1{
+    margin: 100px 0px 0px 60px;
+}
+
+
+.down {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.down .left1 h1{
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.down .left1 button{
+    margin-top: 70px;
+    background-color: #6663e9;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+    font-weight: 600;
+}
+
+/* main down right*/
+
+.down .right1 .featuresImage2{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: -40px;
+    right: 170px;
+}
+
+.backimg{
+    width: 900px;
+    height: 600px;
+}
+
+
+
+/* secondLast------------------------------------------ */
+
+.secondLast{
+    margin: auto;
+    width: 1036px;
+    border-radius: 100px;
+    height: 500px;
+    background-color:#6663e9;
+}
+
+.secondLast .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top h1{
+    font-size: 60px;
+    color: aliceblue;
+    margin: 20px 0px;
+}
+
+.top p{
+    color: white;
+}
+
+.mainbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.btn1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(76, 69, 203);
+    padding: 0px 15px;
+}
+
+.btn1 img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn1 input{
+    border: none;
+    background-color: transparent;
+}
+
+.mainbtn button{
+    margin-left: 20px;
+    padding: 12px 21px ;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    color: #6663e9;
+}
+
+
+/* footer---------------------------------------------------- */
+footer{
+    width: 80%;
+    display: flex;
+    margin: 30px 0px;
+    position: relative;
+    right: 30px;
+    
+    
+    /* left */
+}
+.footerleft{
+    width: 50%;
+    position: relative;
+    left: 350px;
+}
+.logof img{
+    width:110px;
+    margin: 23px 0px;
+}
+
+.imgf img{
+    width: 25px;
+    margin-bottom: 20px;
+}
+
+/* right */
+.footerright{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    
+}
+
+.footerright ul li{
+    margin: 14px 0px;
+}
+
+.footerright ul li{
+    list-style: none;
+}
+
+.footerright ul :first-child{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 19px;
+}
